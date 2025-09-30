@@ -1002,3 +1002,179 @@ Example: [2, 8, 5, 12] → 12 */
 //         onOff.innerHTML = "ON"
 //     }
 // }
+
+// console.log(document.body);
+// console.dir(document.body);
+
+
+// let box = document.querySelector(".box")
+// let btnEl = document.createElement("button");
+// console.log(btnEl.innerText = "Click Me");
+
+// box.after(btnEl)
+
+
+// const mul = (a, b) => {
+//     return a * b;
+// }
+// console.log(mul(5,8));
+
+
+// function multiply(a){
+//     return a * a
+// }
+// console.log(multiply(5));
+
+
+// let colors = ["red", "green", "blue","purple"];
+
+// for (let color of colors) {
+//     console.log(color);
+// }
+
+// console.log("<<<<<<<<>>>>>>>>");
+
+
+// let person = {name: "Ali", age: 22, city: "Lahore"};
+
+// for (let key in person) {
+//     console.log(key + " : " + person[key]);
+// }
+
+
+
+// let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes",
+//     "Pineapple", "Papaya", "Peach", "Cherry", "Strawberry",
+//     "Blueberry", "Watermelon", "Kiwi", "Guava", "Plum",
+//     "Apricot", "Pomegranate", "Coconut", "Lemon", "Fig"];
+
+// for (let i = 0; i < fruits.length; i++) {
+//     if (i <= 10) {
+//         console.log([i],fruits[i]);
+//     }
+// }    
+
+
+
+// let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes",
+//     "Pineapple", "Papaya", "Peach", "Cherry", "Strawberry",
+//     "Blueberry", "Watermelon", "Kiwi", "Guava", "Plum",
+//     "Apricot", "Pomegranate", "Coconut", "Lemon", "Fig"];
+
+// let arry = fruits.map(arr){
+// }
+
+
+// console.log(a);
+// const a = 1 
+
+// ab()
+// let ab = function a(){
+//     console.log("Run");
+// }
+
+// if (true){
+//     var a = "kashif"
+// }
+// console.log(a);
+
+// let obj = {
+//     name:'Kashif Ali',
+//     institue: 'SMIT',
+//     age: 21,
+//     rollNumber: 33266
+// }
+// // delete obj.age;
+// let retn = "age" in obj
+// console.log(obj);
+// console.log(retn);
+
+
+// function Student(name, age, clas) {
+//     this.name = name;
+//     this.age = age;
+//     this.clas = clas
+// }
+
+// let S1 = new Student("Kashif Ali", 21, "BSCS")
+// let S2 = new Student("Awan", 21, "Cyber Security")
+// let S3 = new Student("Ali", 21, "BSCS")
+// let S4 = new Student("Kashif Ali", 21, "BSCS")
+// let S5 = new Student("Kashif Ali", 21, "BSCS")
+// let S6 = new Student("Kashif Ali", 21, "BSCS")
+// console.log(S1);
+// console.log(S2);
+// console.log(S3);
+// console.log(S4);
+// console.log(S5);
+// console.log(S6);
+
+// let arr = [
+//     new Student("Kashif Ali", 21, "BSCS"),
+//     new Student("Awan", 21, "Cyber Security"),
+//     new Student("Ali", 21, "BSCS"),
+//     new Student("Kashif Ali", 21, "BSCS"),
+//     new Student("Kashif Ali", 21, "BSCS"),
+//     new Student("Kashif Ali", 21, "BSCS")
+// ]
+// console.log(arr);
+
+
+
+// function Student(name, age, clas) {
+//     this.name = name;
+//     this.age = age;
+//     this.clas = clas
+//     // this.intro = () => {
+//     //     console.log(`My Name is ${name} And I am ${age} year old.`);
+//     // }
+// }
+
+// Student.prototype.intro = () =>{
+//     console.log(`My Name is ${this.name} And I am ${this.age} year old.I am Studying ${this.clas}`);
+// }
+
+// let s1 = new Student("Kashif", 21, "Cyber Security");
+// s1.intro()
+// let company = prompt("Enter Company");
+// let model = prompt("Enter Model");
+
+// var cars = {
+//     honda: {
+//         civic: {
+//             name: "Honda",
+//             model: "Civic",
+//             color: ["black"]
+//         }
+//     }
+// }
+
+// if (company == cars.honda.civic.name || company == cars.honda.civic.model) {
+//     console.log(`Here Your's ${this.name} ${this.model} in ${this.color} color`);
+// }
+// console.log(cars[company]);
+
+
+
+
+let obj = {
+    name: 'Kashif Ali',
+    institue: 'SMIT',
+    age: 21,
+    rollNumber: 33266
+}
+
+// for (var key in obj){
+//     console.log(`${key} : ${obj[key]}`);
+
+// }
+
+
+
+
+
+
+
+
+
+
