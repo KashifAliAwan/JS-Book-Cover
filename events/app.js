@@ -66,3 +66,46 @@ let btn = document.querySelector('#submitform');
 //         main.className = 'box'   
 //     }
 // }
+
+
+// let date = new Date()
+// console.log(date.toLocaleString('en-US'));
+// // console.log(date.toLocaleDateString());
+// // console.log(date.toLocaleTimeString());
+// console.log(date);
+
+
+// console.log("Pehly Wala");
+// setTimeout(() => {
+//     console.log("Set Time Out Console");
+
+// }, 3000)
+// console.log("Bad Wala");
+// let count = 0;
+
+
+// let h1 = document.querySelector('h1');
+
+// setInterval(() => {
+//     let date = new Date() 
+//     let milS = date.toLocaleTimeString()
+//     h1.textContent = milS
+// }, 1000)
+
+
+// let h1 = document.querySelector('h1');
+// let count = 0;
+// function startCount() {
+//     count += 1
+//     h1.innerHTML = count
+// }
+
+
+
+for (var i = 1; i <= 10; i++) {
+    // console.log(i);
+        
+    setTimeout(() => {
+        console.log(i);       
+    },2000)
+}
